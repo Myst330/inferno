@@ -1,0 +1,32 @@
+ This is a credits-file of the people that have
+ contributed to Hydra. The fields are: name
+ (N), email (E),  web-address (W), PGP key ID
+ and fingerprint (P), description (D), and
+ snail-mail address (S).
+ Thanks,
+
+ 	      Ariston
+ --------
+ N: Ariston Lorenzo
+ E: myst3301@protonmail.com
+ W: https://github.com/myst3301/
+ D: Original kernel developer
+ S: Washington, District of Columbia
+ S: USA
+
+ N: Genesis Banzon
+ E: mysteriousrazor330@gmail.com
+ D: Original kernel developer
+ S: Washington, District of Columbia
+ S: USA
+
+ N: James Villanueva
+ E: mrredking586@gmail.com
+ D: Lead maintainer and VGA setup
+ 
+ N: Joshua Torres
+ E: aristonlorenzofire@gmail.com (Subject must be: To Joshua Torres)
+ D: Maintainer
+ D: libc work
+
+
