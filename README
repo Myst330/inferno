@@ -1,0 +1,33 @@
+	Hydra/Inferno kernel
+ =================================
+
+What is Hydra/Inferno?
+----------------------
+
+  Hydra/Inferno is a clone of the operating system Unix, written from scratch by
+  Ariston Lorenzo with assistance from a loosly-knit team of hackers across the 
+  Net. 
+
+  It will have all the features you would expect in a modern Unix system,
+  including true multitasking, virtual memory, shared libraries, demand loading,
+  shared copy-on-write executables, proper memory management, and multistack
+  networking including IPv4 and IPv6.
+
+  It is distributed under the GNU General Public License v2 - see the 
+  accompanying COPYING file for more details. 
+
+On what hardware does it run?
+-----------------------------
+  
+  We will first start with ARM-based PCs and then slowly we will move to
+  Intel IA-64 and AMD x86-64 architectures. 
+
+  Hydra/Inferno is easily portable to most general-purpose 32-bit or 64-bit 
+  architectures as long as they have a paged memory management unit (PMMU) and
+  a port of the GNU C Compiler (gcc) (part of The GNU Compiler Collection, GCC).
+  Hydra/Inferno has also been ported to a number of architectures without a 
+  PMMU, although functionality is then obviously somewhat limited.
+  Hydra/Inferno has also been ported to itself. We will make it so you can run
+  the kernel as a userspace application - this is call UserMode Hydra (UMH).
+
+
