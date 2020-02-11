@@ -1,0 +1,30 @@
+How to submit kernel changes
+============================
+
+Please try to follow the guidelines below. This will make things
+easier on the maintainers. Not all of these guidelines matter for every
+trivial patch so apply some common sense.
+
+Tips for patch submitters
+-------------------------
+
+1.	Always *test* your changes, however small, on at least 4 or
+	5 people, preferably many more.
+
+2.	Try to release a few ALPHA test versions to the net. Annouce 
+	them onto the kernel-alpha channel
+	(in Discord: https://discord.gg/mmZQSAB) and await results.
+	This is especially important for device drivers, because
+	often that's the only way you will find things like the fact
+	version 3 firmware needs a magic fix that you don't know about,
+	or some clown changed the chips on the board and not its name. 
+	(Don't laugh! Look at the SMC etherpower for that.)
+
+3.	Make sure your changes compile correctly in multiple 
+	configurations. In particular check that changes work both as a
+	module and built into the kernel.
+
+4.	When you are happy with a change make it generally available for
+	testing and await feedback.
+
+5.	Happy hacking.
