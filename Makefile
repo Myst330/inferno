@@ -76,7 +76,7 @@ clean:
 	(cd lib;make clean)
 
 backup: clean
-	(cd .. ; tar cf - linux | compress16 - > backup.Z)
+	(cd .. ; tar cf - inferno | compress16 - > backup.Z)
 	sync
 
 dep:
@@ -90,7 +90,7 @@ dep:
 ### Dependencies:
 init/main.o : init/main.c include/unistd.h include/sys/stat.h \
   include/sys/types.h include/sys/times.h include/sys/utsname.h \
-  include/utime.h include/time.h include/linux/tty.h include/termios.h \
-  include/linux/sched.h include/linux/head.h include/linux/fs.h \
-  include/linux/mm.h include/asm/system.h include/asm/io.h include/stddef.h \
+  include/utime.h include/time.h include/inferno/tty.h include/termios.h \
+  include/inferno/sched.h include/inferno/head.h include/inferno/fs.h \
+  include/inferno/mm.h include/asm/system.h include/asm/io.h include/stddef.h \
   include/stdarg.h include/fcntl.h 
