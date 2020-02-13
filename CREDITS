@@ -1,7 +1,7 @@
  This is a credits-file of the people that have
  contributed to Hydra. The fields are: name
  (N), email (E),  web-address (W), PGP key ID
- and fingerprint (P), description (D), and
+ and fingerprint (P), Git/Neon Username (U), description (D), and
  snail-mail address (S).
  Thanks,
 
@@ -10,12 +10,14 @@
  N: Ariston Lorenzo
  E: myst3301@protonmail.com
  W: https://github.com/myst3301/
+ U: myst3301, myst
  D: Original kernel developer
  S: Washington, District of Columbia
  S: USA
 
  N: Genesis Banzon
  E: mysteriousrazor330@gmail.com
+ U: mysteriousrazor330
  D: Original kernel developer
  S: Washington, District of Columbia
  S: USA
@@ -31,6 +33,7 @@
 
  N: Levi Hicks
  E: cto@firesearch.net
+ U: Optix, OptixLLC
  D: Original Kernel Developer
  D: Desktop GUI
  S: Pampa, Texas
